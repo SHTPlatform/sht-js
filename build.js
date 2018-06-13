@@ -1,0 +1,1 @@
+window.SercJS = SercJS = require('./index.js');
