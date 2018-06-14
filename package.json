@@ -1,17 +1,17 @@
 {
-  "name": "serc-js",
+  "name": "sht-js",
   "version": "1.0.1",
-  "description": "Serc javascript library",
+  "description": "SHT javascript library",
   "main": "index.js",
   "directories": {
     "test": "test"
   },
   "scripts": {
     "test": "mocha test",
-    "build": "browserify build.js -o browserify-serc.js && uglifyjs browserify-serc.js > browserify-serc.min.js"
+    "build": "browserify build.js -o browserify-sht.js && uglifyjs browserify-sht.js > browserify-sht.min.js"
   },
   "keywords": [
-    "serc",
+    "sht",
     "js",
     "library"
   ],
